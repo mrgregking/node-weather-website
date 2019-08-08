@@ -1,0 +1,142 @@
+body {
+  color: #f1e8e8;
+  background: rgb(10, 9, 9);
+  font-family: arial;
+  padding: 0 16px;
+  margin: 0px auto;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#message-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.75rem;
+  letter-spacing: 3px;
+  font-family: 'Racing Sans One', cursive;
+  color: #ff0f57;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa;
+}
+#message-2 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: #5aff8a;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+header:link {
+  text-decoration: none;
+  color: #112aeb;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: 5px;
+  margin-bottom: 16px;
+  font-family: 'Racing Sans One', cursive;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ff0f57;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa;
+}
+
+header a {
+  color: #ffff0f;
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.centerPortrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+input {
+  margin: 0 auto;
+  padding: 8px;
+  background: transparent;
+  box-shadow: inset 0 0 20px #ff0f57;
+  border: none;
+  color: #0fff0f;
+  font-size: 1.5rem;
+  text-align: center;
+  outline: none;
+  width: 300px;
+}
+
+button {
+  background: transparent;
+  font-size: 1.5rem;
+  color: #0fff0f;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.wet {
+  position: absolute;
+  top: -20px;
+  left: 665px;
+}
+.topCorner {
+  position: absolute;
+  top: 40px;
+  left: 1100px;
+}
+h2 {
+  color: #0fffff;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h3 {
+  color: #0fff0f;
+  /* text-shadow: 0 1px 0 #efcbef, 0 2px 0 #edc4ed, 0 3px 0 #ebbceb,
+    0 4px 0 #e9b3e9, 0 5px 0 #e6a9e6;*/
+  font-size: 2.25rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+  color: #0fff0f;
+}
+form {
+  padding: 10px;
+  box-shadow: inset 0 0 10px #000000;
+  background: #ff0f57;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
