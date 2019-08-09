@@ -138,3 +138,7 @@ form {
   margin-right: auto;
   width: 450px;
 }
+.center {
+  text-align: center;
+  margin: 20px; auto;
+}
