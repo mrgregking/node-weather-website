@@ -30,10 +30,12 @@ body {
 }
 
 footer {
-  color: #888888;
+  color: #e6ff01;
+  text-align: center;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
+  font-size: 1rem;
 }
 
 header {
@@ -140,5 +142,11 @@ form {
 }
 .center {
   text-align: center;
-  margin: 20px; auto;
+  padding: 10px;
+  background: #ff0f57;
+  margin: 30px auto;
+  font-size: 1.5rem;
+  max-width: 500px;
+  color: #0fff0f;
+  box-shadow: inset 0 0 10px #000000;
 }

@@ -37,7 +37,11 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
   res.render('help', {
     helpText:
-      "I wish this was some meaningful and interesting text, it's not! Deal with it or don't I don't care.",
+      'I wish this was meaningful and interesting text,' +
+      '\n' +
+      ' Its Not! ' +
+      '\n' +
+      'Deal with it!',
     title: 'Help',
     name: 'Greg King'
   })
