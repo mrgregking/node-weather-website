@@ -7,6 +7,7 @@
     <link rel="icon" href="/img/weather.ico">
     <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Charm|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 </head>
@@ -18,7 +19,7 @@
         <script src="https://kit.fontawesome.com/76c6b985c5.js"></script>
         {{>header}}
 
-        <h3>Find Any Forecast</h3>
+        <h1 class="forecastText">Forecast</h1>
 
         <form>
             <input type="text" placeholder="Enter Any City" onfocus="this.placeholder=''"
@@ -26,9 +27,11 @@
             <button>Search</button>
         </form>
 
-        <p id="message-1"></p>
-        <br></br>
-        <p id="message-2"></p>
+        <div class="centerMessage">
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div>
+
 
 
 

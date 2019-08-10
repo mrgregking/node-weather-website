@@ -11,31 +11,34 @@ body {
 }
 
 #message-1 {
-  display: flex;
+  text-align: center;
+  display: inline-block;
   justify-content: center;
-  background: rgba(255, 255, 0, 0.986);
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding: 1px;
-  font-size: 2.25rem;
+  background: transparent;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 5px 20px;
+  font-size: 2.2rem;
   letter-spacing: 3px;
-  font-family: 'Racing Sans One', cursive;
-  color: #ff0f57;
-  margin-bottom: 0px;
-  box-shadow: inset 0 0 25px #000;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffff00;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 10px #000000;
 }
 #message-2 {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  padding: 1px;
-  margin-top: 0px;
+  padding: 10px;
+  margin-top: 30px;
   background: transparent;
-  font-size: 1.4rem;
-  color: #f80f0f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
 }
-
+.centerMessage {
+  text-align: center;
+}
 .main-content {
   flex-grow: 1;
 }
@@ -46,7 +49,7 @@ footer {
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 header {
@@ -61,7 +64,8 @@ header:link {
 }
 
 h1 {
-  font-size: 6rem;
+  text-align: center;
+  font-size: 6.5rem;
   letter-spacing: 5px;
   margin-bottom: 16px;
   font-family: 'Racing Sans One', cursive;
@@ -71,6 +75,18 @@ h1 {
   color: #ff0f57;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa;
+}
+.forecastText {
+  text-align: center;
+  font-size: 4.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 16px;
+  margin-top: -20px;
+  font-family: 'Racing Sans One', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  color: #736aff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9;
 }
 
 header a {
@@ -118,8 +134,8 @@ button {
 }
 .topCorner {
   position: absolute;
-  top: 40px;
-  left: 1100px;
+  top: 70px;
+  left: 1200px;
 }
 h2 {
   color: #0fffff;
@@ -134,7 +150,7 @@ h3 {
     0 4px 0 #e9b3e9, 0 5px 0 #e6a9e6;*/
   font-size: 2.25rem;
   font-family: 'Playfair Display', serif;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   text-align: center;
 }
 
@@ -143,9 +159,9 @@ h3 {
   color: #0fff0f;
 }
 form {
-  padding: 10px;
+  padding: 4px;
   box-shadow: inset 0 0 10px #000000;
-  background: #ff0f57;
+  background: rgb(255, 15, 87);
   display: block;
   margin-left: auto;
   margin-right: auto;
