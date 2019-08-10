@@ -13,16 +13,27 @@ body {
 #message-1 {
   display: flex;
   justify-content: center;
-  font-size: 2.75rem;
+  background: rgba(255, 255, 0, 0.986);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 1px;
+  font-size: 2.25rem;
   letter-spacing: 3px;
   font-family: 'Racing Sans One', cursive;
   color: #ff0f57;
+  margin-bottom: 0px;
+  box-shadow: inset 0 0 25px #000;
 }
 #message-2 {
   display: flex;
   justify-content: center;
-  font-size: 1.75rem;
-  color: #5aff8a;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 1px;
+  margin-top: 0px;
+  background: transparent;
+  font-size: 1.4rem;
+  color: #f80f0f;
 }
 
 .main-content {

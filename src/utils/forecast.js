@@ -18,12 +18,17 @@ const forecast = (latitude, longitude, callback) => {
         undefined,
         body.daily.data[0].summary +
           ' It is currently ' +
-          body.currently.temperature +
-          ' degrees out. High today ' +
-          body.daily.data[0].temperatureHigh +
-          ' with a Low of ' +
-          body.daily.data[0].temperatureLow +
-          ' There is a ' +
+          Math.floor(body.currently.temperature) +
+          '\u00B0' +
+          '  /  ' +
+          ' High Temp ' +
+          Math.floor(body.daily.data[0].temperatureHigh) +
+          '\u00B0' +
+          '  /  ' +
+          ' Low Temp ' +
+          Math.floor(body.daily.data[0].temperatureLow) +
+          '\u00B0' +
+          '  /  ' +
           body.currently.precipProbability +
           '% chance of rain.  The humidity is ' +
           body.daily.data[0].humidity * 100 +
