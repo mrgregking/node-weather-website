@@ -17,7 +17,7 @@ const forecast = (latitude, longitude, callback) => {
       callback(
         undefined,
         body.daily.data[0].summary +
-          ' It is currently ' +
+          ' Currently ' +
           Math.floor(body.currently.temperature) +
           '\u00B0' +
           '  /  ' +

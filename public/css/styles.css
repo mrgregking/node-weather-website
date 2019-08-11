@@ -33,7 +33,7 @@ body {
   margin-top: 30px;
   background: transparent;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 .centerMessage {
@@ -168,8 +168,8 @@ form {
   box-shadow: inset 0 0 10px #000000;
 }
 footer {
-  color: #e6ff01;
+  color: #0fff0f;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 1.25rem;
 }
