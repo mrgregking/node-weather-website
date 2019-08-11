@@ -42,15 +42,6 @@ body {
 .main-content {
   flex-grow: 1;
 }
-
-footer {
-  color: #e6ff01;
-  text-align: center;
-  margin-top: 12px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-}
-
 header {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -175,4 +166,10 @@ form {
   max-width: 500px;
   color: #0fff0f;
   box-shadow: inset 0 0 10px #000000;
+}
+footer {
+  color: #e6ff01;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
 }
