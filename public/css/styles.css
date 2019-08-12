@@ -1,7 +1,7 @@
 body {
   color: #f1e8e8;
-  background: rgb(10, 9, 9);
-  font-family: arial;
+  background: rgb(21, 139, 218);
+  font-family: sans-serif;
   padding: 0 16px;
   margin: 0px auto;
 
@@ -15,26 +15,23 @@ body {
   display: inline-block;
   justify-content: center;
   background: transparent;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   padding: 5px 20px;
   font-size: 2.2rem;
   letter-spacing: 3px;
   font-family: 'Montserrat', sans-serif;
-  color: #ffff00;
+  font-weight: 700;
+  color: #0b0b47;
   margin-bottom: 20px;
-  box-shadow: inset 0 0 10px #000000;
 }
 #message-2 {
   display: inline-block;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
   padding: 10px;
   margin-top: 30px;
-  background: transparent;
+  background: #0b0b47;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 1.5rem;
-  color: #fff;
+  color: #ff0;
 }
 .centerMessage {
   text-align: center;
@@ -48,11 +45,6 @@ header {
   text-align: center;
 }
 
-header:link {
-  text-decoration: none;
-  color: #112aeb;
-}
-
 h1 {
   text-align: center;
   font-size: 6.5rem;
@@ -62,26 +54,27 @@ h1 {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  color: #ff0f57;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
-    0 5px 0 #aaa;
+  color: #0b0b47;
+  text-shadow: 0 1px 0 #fffb04, 0 2px 0 #fffb04, 0 3px 0 #fffb04,
+    0 4px 0 #fffb04, 0 5px 0 #0b0b47, 0 6px 0 #0b0b47, 0 7px 0 #0b0b47;
 }
 .forecastText {
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 6rem;
   letter-spacing: 5px;
   margin-bottom: 16px;
   margin-top: -20px;
   font-family: 'Racing Sans One', cursive;
   margin-left: auto;
   margin-right: auto;
-  color: #736aff;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9;
+  color: #0b0b47;
+  text-shadow: 0 1px 0 #fffb04, 0 2px 0 #fffb04, 0 3px 0 #fffb04,
+    0 4px 0 #fffb04, 0 5px 0 #0b0b47, 0 6px 0 #0b0b47, 0 7px 0 #0b0b47;
 }
 
 header a {
-  color: #ffff0f;
-  font-size: 20px;
+  color: #0b0b47;
+  font-size: 24px;
   margin-right: 16px;
   text-decoration: none;
   text-align: center;
@@ -91,29 +84,50 @@ header a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 input {
+  background: #0b0b47;
   margin: 0 auto;
   padding: 8px;
-  background: transparent;
-  box-shadow: inset 0 0 20px #ff0f57;
   border: none;
-  color: #0fff0f;
+  border-left: 4px solid #ff0;
+  color: #ff0;
   font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   outline: none;
-  width: 300px;
+  width: 320px;
+}
+input:focus {
+  background: #0b0b47;
+  color: #ff0;
+  border: none;
+  outline: none;
+}
+label {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6px;
+  width: 320px;
 }
 
 button {
-  background: transparent;
+  background: #0b0b47;
   font-size: 1.5rem;
-  color: #0fff0f;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #ff0;
   outline: none;
   border: none;
   cursor: pointer;
+  margin-left: -10px;
   padding: 8px;
 }
 
@@ -126,6 +140,11 @@ button {
   position: absolute;
   top: 70px;
   left: 1200px;
+}
+.leftCorner {
+  position: absolute;
+  top: 70px;
+  left: 150px;
 }
 h2 {
   color: #0fffff;
@@ -146,12 +165,10 @@ h3 {
 
 ::placeholder {
   text-align: center;
-  color: #0fff0f;
+  color: #ff0;
 }
 form {
   padding: 4px;
-  box-shadow: inset 0 0 10px #000000;
-  background: rgb(255, 15, 87);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -168,7 +185,7 @@ form {
   box-shadow: inset 0 0 10px #000000;
 }
 footer {
-  color: #0fff0f;
+  color: #ff0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;

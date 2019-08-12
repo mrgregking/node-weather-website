@@ -4,25 +4,30 @@
 
 <head>
     <title>Weather</title>
-    <link rel="icon" href="/img/weather.ico">
-    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Charm|Playfair+Display&display=swap"
+    <link rel="icon" href="/img/mostlysunny.png">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One|Charm|Playfair+Display&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body>
     <div class="main-content">
+        <img class="leftCorner" src='/../img/occasional-snow.png' height="256" width="256">
         <img class="topCorner" src='/../img/sunnyCartoonTransparent.png' height="160" width="160">
         <img class="wet" src='/../img/cloudRain.png' height="128" width="128">
         <script src="https://kit.fontawesome.com/76c6b985c5.js"></script>
         {{>header}}
 
         <h1 class="forecastText">Forecast</h1>
+
         <form>
-            <input type="text" placeholder="Enter Any City" onfocus="this.placeholder=''"
-                onblur="this.placeholder='Enter Any City'">
+            <label>Example: Salt Lake City Utah</label>
+            <input type="text" placeholder="Enter City State" onfocus="this.placeholder=''"
+                onblur="this.placeholder=''">
+
+
             <button>Search</button>
         </form>
         <div class="centerMessage">

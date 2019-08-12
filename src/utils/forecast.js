@@ -30,9 +30,7 @@ const forecast = (latitude, longitude, callback) => {
           '\u00B0' +
           '  /  ' +
           body.currently.precipProbability +
-          '% chance of rain.  The humidity is ' +
-          body.daily.data[0].humidity * 100 +
-          '%'
+          '% chance of rain.'
       )
     }
   })
