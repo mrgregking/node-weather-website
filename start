@@ -1,0 +1,51 @@
+Script started on 2020-04-29 22:15:01-0600
+[1m[7m%[27m[1m[0m                                                                            ]2;happycoding@-: /mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather]1;..e/old-weather[0m[27m[24m[J[01;32m➜  [36mold-weather[00m [K[?1h=[?2004hnnode src/app.js[?1l>[?2004l
+]2;node src/app.js]1;nodemodule.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '/mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather/src/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[1m[7m%[27m[1m[0m                                                                            ]2;happycoding@-: /mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather]1;..e/old-weather[0m[27m[24m[J[01;31m➜  [36mold-weather[00m [K[?1h=[?2004hnnode src/app.js[?1l>[?2004l
+]2;node src/app.js]1;nodemodule.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '/mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather/src/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[1m[7m%[27m[1m[0m                                                                            ]2;happycoding@-: /mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather]1;..e/old-weather[0m[27m[24m[J[01;31m➜  [36mold-weather[00m [K[?1h=[?2004hnode src/app.js[?1l>[?2004l
+]2;node src/app.js]1;nodemodule.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '/mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather/src/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[1m[7m%[27m[1m[0m                                                                            ]2;happycoding@-: /mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather]1;..e/old-weather[0m[27m[24m[J[01;31m➜  [36mold-weather[00m [K[?1h=[?2004hnnpm it nit[?1l>[?2004l
+]2;npm init]1;npmThis utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+[1G[0Jname: (old-weather) [21G[?25h[0G[K[37m[40mnpm[0m [0m[30m[43mWARN[0m [0m[35minit[0m canceled
+[0m[?25l[0G▄ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[?25h[1A[0G[K[?25h[0G[K[1m[7m%[27m[1m[0m                                                                            ]2;happycoding@-: /mnt/c/Users/HappyCoding/Desktop/Andrew Mead Course/old-weather]1;..e/old-weather[0m[27m[24m[J[01;32m➜  [36mold-weather[00m [K[?1h=[?2004hnnpm install[?1l>[?2004l
+]2;npm install]1;npm[?25l[0G▄ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GcloneCurrentTree → loadSh ▐ ╢████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gpostinstall     
